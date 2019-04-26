@@ -34,7 +34,8 @@ def cityreader(cities=[]):
     with open('cities.csv', newline='') as f:
         reader = csv.reader(f)
         for cities in reader:
-            print(cities)
+            cities = City(cities[0], cities[3], cities[4])
+
     return cities
 
 
