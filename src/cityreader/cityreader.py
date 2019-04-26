@@ -38,6 +38,7 @@ def cityreader(cities=[]):
     return cities
 
 
+print(cities[0])
 cityreader(cities)
 
 # Print the list of cities (name, lat, lon), 1 record per line.
